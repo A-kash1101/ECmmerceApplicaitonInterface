@@ -1,0 +1,43 @@
+.course-card {
+  display: flex;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  margin-bottom: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+  overflow: hidden;
+  transition: box-shadow 0.2s;
+}
+.course-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.course-card-img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+}
+.course-card-body {
+  flex: 1;
+  padding: 1rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.progress-bar-bg {
+  background: #eee;
+  border-radius: 6px;
+  height: 10px;
+  margin: 0.5rem 0;
+  width: 100%;
+}
+.progress-bar-fill {
+  background: #007bff;
+  height: 100%;
+  border-radius: 6px;
+  transition: width 0.3s;
+}
+.progress-label {
+  font-size: 0.9rem;
+  color: #555;
+} 

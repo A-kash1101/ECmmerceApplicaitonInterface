@@ -1,0 +1,21 @@
+/* Reset and base styles for the e-learning platform */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  background: #f9f9f9;
+  color: #222;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+nav {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+/* Add more custom styles as needed */
